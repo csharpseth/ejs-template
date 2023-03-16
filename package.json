@@ -1,0 +1,24 @@
+{
+	"name": "ejs-project",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"start": "node dist/server.js",
+		"dev": "nodemon src/server.ts --exec ts-node"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/ejs": "^3.1.2",
+		"@types/express": "^4.17.17",
+		"nodemon": "^2.0.21",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.0.2"
+	},
+	"dependencies": {
+		"ejs": "^3.1.9",
+		"express": "^4.18.2"
+	}
+}
